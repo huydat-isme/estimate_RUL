@@ -1,0 +1,10 @@
+1.Introduction
+	- Các thiết bị hoặc bộ phận đều xuống cấp trong quá trình sử dụng. Hầu hết sự suy giảm đều dẫn đến việc giảm chất lượng, hiệu năng và dẫn đến thất bại => Việc tính RUL của các thiết bị là rất quan trọng để có thể giảm các rủi ro không mong muốn bằng cách thay thế bảo trì các thiệt bị 1 cách kịp thời
+	- Sự xuống cấp thường đi liền với các hiện tượng vật lý cà có thể được quan sát ví dụ như sự thay đổi nhiệt độ và sự xuất hiện của các vết rạn nứt.
+	- The remaining life: Là thời gian để tín hiệu  suy giảm đến khi chạm ngưỡng
+	- Khó khăn khi tính toán RUL: sự thay đổi của tín hiệu degradation thường là ngẫu nhiên trong tự nhiên. Vì vậy để dự đoán chính xác là rất khó 
+	- 1 cách để tiếp cận sử dụng hệ số ngẫu nhiên với các tham số xác định và ngẫu nhiên và các thành phần lỗi ngẫu nhiên đẻ mô hình hóa các tín hiệu suy giảm
+	+) Sử dụng hệ số ngẫu nhiên vì để tính đến sự biến đổi tự nhiên trong quá trình suy giảm . Các tham số xác định đại diện cho các yếu tố có hệ thống , trong khi các tham số ngẫu nhiên bắt lấy các biến động hoặc ko chắc chắn trong hệ thống
+	- 1 cách tiếp cận khác sử dụng Brownian motion .Trong quá trình suy giảm, các tín hiệu đo được thường tăng dần và tiến gần đến mức độ hỏng hoặc không hoạt động của hệ thống hoặc thành phần. Chuyển động Brownian được sử dụng để mô hình hóa sự biến đổi ngẫu nhiên của tín hiệu suy giảm, giống như sự không chắc chắn trong việc di chuyển của các hạt trong chuyển động Brownian.
+	-Ge-braeel và đồng nghiệp đã phát triển mô hình degradation dựa trên sensory-sersor để dự đoán RLDs và cập nhật các phân phối theo thời gian thực. Theo đó, RLDs được ước tính là phân phối của thời gian để quỹ đạo của degradation signal chạm đến ngưỡng.Trong thực tế, đây là 1 sự xấp xỉ bởi sự dao động của tín hiệu có thể đã vượt qua ngưỡng trước khi dự đoán được remaining life.Nói cách khác RLDs được tính trong Refs không đại diện cho thời gian trôi qua đầu tiên. Trong trường hợp tín hiệu dao động lớn phép tính gần đúng này có thể không chính xác. Để giải quyết vấn đề này, tác giả đã ước lượng RUL bằng cách sử dụng trung vị của RLDs	
+	
